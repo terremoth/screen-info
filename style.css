@@ -5,3 +5,8 @@
 td, span, input, button {
     font-size: 1.3rem;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
