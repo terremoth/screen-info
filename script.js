@@ -36,3 +36,9 @@ const inputs = document.getElementsByTagName("input");
 for (input of inputs) {
     input.addEventListener("change", calculate);
 }
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("./service-worker.js").then(() => {
+        console.log("Service Worker registered!");
+    });
+}
