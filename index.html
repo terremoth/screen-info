@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Aspect Ratio and PPI online calc</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Screen PPI and Aspect Ratio Calc</h1>
+    <table>
+        <tr>
+            <td><label for="width">Width:</label></td>
+            <td><input autofocus type="number" step="1" placeholder="eg.: 800" id="width"></td>
+        </tr>
+        <tr>
+            <td><label for="height">Height:</label></td>
+            <td><input type="number" step="1" placeholder="eg.: 480" id="height"></td>
+        </tr>
+        <tr>
+            <td><label for="size">Size (inch):</label></td>
+            <td><input type="number" step="1" placeholder="eg.: 3.5" step="0.1" id="size"></td>
+        </tr>
+    </table>
+    <br>
+    <button id="calc" onclick="">Calculate PPI and A.R.</button>
+    <hr>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
