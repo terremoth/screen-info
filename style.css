@@ -1,0 +1,7 @@
+* {
+    font-family: "Arial";
+}
+
+td, span, input, button {
+    font-size: 1.3rem;
+}
