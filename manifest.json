@@ -1,0 +1,15 @@
+{
+  "name": "Aspect Ratio and PPI online calculator",
+  "short_name": "AR+PPI Calc",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF6347",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64",
+      "type": "image/png"
+    }
+  ]
+}
