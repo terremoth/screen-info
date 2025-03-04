@@ -21,7 +21,7 @@ const calculate = _ => {
 
         if (width && height) {
             let aspect_ratio_result = aspect_ratio(width, height);
-            document.getElementById("result").innerHTML += `<span>Aspect Ration: ${aspect_ratio_result}</span>`;
+            document.getElementById("result").innerHTML += `<span>Aspect Ratio: ${aspect_ratio_result}</span>`;
         }
 
         if (width && height && size) {
